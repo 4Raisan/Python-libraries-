@@ -6,7 +6,7 @@
 
 from os import *
 
-d = "4Raisan/Python-libraries-/1. _OS_library_in_py_.py" 
+d = "1. _OS_library_in_py_.py" 
 # or use __file__ for use the script what we ran
 op = path.dirname(path.abspath(__file__))
 op2 = path.dirname(path.abspath(d))
