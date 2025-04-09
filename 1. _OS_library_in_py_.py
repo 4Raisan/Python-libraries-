@@ -7,7 +7,8 @@
 from os import *
 
 d = "1. _OS_library_in_py_.py" 
-# or use __file__ for use the script what we ran
+# use __file__ for use the script what we ran
+# unless, it gives the terminal running location
 op = path.dirname(path.abspath(__file__))
 op2 = path.dirname(path.abspath(d))
 
